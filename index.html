@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Login/Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <!-- Formulário de Login  -->
+            <div class="formulario formulario-login ativo">
+                <h2 class="titulo-formulario">Login</h2>
+                <form class="Form-autenticacao">
+                    <div class="campo-formulario">
+                        <input type="email" class="input-email" placeholder="E-mail" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <input type="password" class="input-senha" placeholder="Senha" required>
+                    </div>
+                    <button type="submit" class="botao-enviar">Entrar</button>
+                </form>
+                <div class="painel">
+                    <h3>Não tem uma conta?</h3>
+                    <p>Cadastre-se agora e faça parte da nossa comunidade!</p>
+                    <button class="botao-alternar" onclick="alternarFormulario()">Ir para cadastro</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
