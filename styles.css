@@ -27,7 +27,7 @@ body {
     color: aliceblue;
 }
 
-.formulario {
+.formulario.ativo {
     padding: 20px;
     display: none;
     flex-direction: column;
