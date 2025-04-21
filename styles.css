@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(49,48,48);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(250, 248, 248);
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3 ease-in-out;
+}
+
+.titulo-formulario {
+    color: aliceblue;
+}
+
+.formulario {
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.campo-formulario {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c9f31d;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9f31d;
+}
+
+.painel {
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.botao-alternar {
+    background-color: transparent;
+    color: #007BFF;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao-alternar:hover {
+    text-decoration: underline;
+}
+
+.botao-alternar:hover {
+    text-decoration: underline;
+}
+
+.formulario-ativo {
+    display: block;
+}
